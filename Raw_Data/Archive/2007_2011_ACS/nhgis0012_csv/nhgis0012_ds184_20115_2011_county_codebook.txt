@@ -1,0 +1,290 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0012_ds184_20115_2011_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2007-2011
+Geographic level: County (by State)
+Dataset:          2011 American Community Survey: 5-Year Data [2007-2011, Block Groups & Larger Areas]
+   NHGIS code:    2007_2011_ACS5a
+   NHGIS ID:      ds184
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  MNT
+ 
+2. Sex by Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15002
+   NHGIS code:  MPS
+ 
+3. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  MPV
+ 
+4. Median Household Income in the Past 12 Months (in 2011 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  MP1
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Reservation with Trust Lands; trust lands only Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  MNT
+        MNTE001:     Total
+ 
+    Table 2:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  MPS
+        MPSE001:     Total
+        MPSE002:     Male
+        MPSE003:     Male: No schooling completed
+        MPSE004:     Male: Nursery to 4th grade
+        MPSE005:     Male: 5th and 6th grade
+        MPSE006:     Male: 7th and 8th grade
+        MPSE007:     Male: 9th grade
+        MPSE008:     Male: 10th grade
+        MPSE009:     Male: 11th grade
+        MPSE010:     Male: 12th grade, no diploma
+        MPSE011:     Male: High school graduate, GED, or alternative
+        MPSE012:     Male: Some college, less than 1 year
+        MPSE013:     Male: Some college, 1 or more years, no degree
+        MPSE014:     Male: Associate's degree
+        MPSE015:     Male: Bachelor's degree
+        MPSE016:     Male: Master's degree
+        MPSE017:     Male: Professional school degree
+        MPSE018:     Male: Doctorate degree
+        MPSE019:     Female
+        MPSE020:     Female: No schooling completed
+        MPSE021:     Female: Nursery to 4th grade
+        MPSE022:     Female: 5th and 6th grade
+        MPSE023:     Female: 7th and 8th grade
+        MPSE024:     Female: 9th grade
+        MPSE025:     Female: 10th grade
+        MPSE026:     Female: 11th grade
+        MPSE027:     Female: 12th grade, no diploma
+        MPSE028:     Female: High school graduate, GED, or alternative
+        MPSE029:     Female: Some college, less than 1 year
+        MPSE030:     Female: Some college, 1 or more years, no degree
+        MPSE031:     Female: Associate's degree
+        MPSE032:     Female: Bachelor's degree
+        MPSE033:     Female: Master's degree
+        MPSE034:     Female: Professional school degree
+        MPSE035:     Female: Doctorate degree
+ 
+    Table 3:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  MPV
+        MPVE001:     Total
+        MPVE002:     Under .50
+        MPVE003:     .50 to .99
+        MPVE004:     1.00 to 1.24
+        MPVE005:     1.25 to 1.49
+        MPVE006:     1.50 to 1.84
+        MPVE007:     1.85 to 1.99
+        MPVE008:     2.00 and over
+ 
+    Table 4:     Median Household Income in the Past 12 Months (in 2011 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  MP1
+        MP1E001:     Median household income in the past 12 months (in 2011 inflation-adjusted dollars)
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  MNT
+        MNTM001:     Total
+ 
+    Table 2:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  MPS
+        MPSM001:     Total
+        MPSM002:     Male
+        MPSM003:     Male: No schooling completed
+        MPSM004:     Male: Nursery to 4th grade
+        MPSM005:     Male: 5th and 6th grade
+        MPSM006:     Male: 7th and 8th grade
+        MPSM007:     Male: 9th grade
+        MPSM008:     Male: 10th grade
+        MPSM009:     Male: 11th grade
+        MPSM010:     Male: 12th grade, no diploma
+        MPSM011:     Male: High school graduate, GED, or alternative
+        MPSM012:     Male: Some college, less than 1 year
+        MPSM013:     Male: Some college, 1 or more years, no degree
+        MPSM014:     Male: Associate's degree
+        MPSM015:     Male: Bachelor's degree
+        MPSM016:     Male: Master's degree
+        MPSM017:     Male: Professional school degree
+        MPSM018:     Male: Doctorate degree
+        MPSM019:     Female
+        MPSM020:     Female: No schooling completed
+        MPSM021:     Female: Nursery to 4th grade
+        MPSM022:     Female: 5th and 6th grade
+        MPSM023:     Female: 7th and 8th grade
+        MPSM024:     Female: 9th grade
+        MPSM025:     Female: 10th grade
+        MPSM026:     Female: 11th grade
+        MPSM027:     Female: 12th grade, no diploma
+        MPSM028:     Female: High school graduate, GED, or alternative
+        MPSM029:     Female: Some college, less than 1 year
+        MPSM030:     Female: Some college, 1 or more years, no degree
+        MPSM031:     Female: Associate's degree
+        MPSM032:     Female: Bachelor's degree
+        MPSM033:     Female: Master's degree
+        MPSM034:     Female: Professional school degree
+        MPSM035:     Female: Doctorate degree
+ 
+    Table 3:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  MPV
+        MPVM001:     Total
+        MPVM002:     Under .50
+        MPVM003:     .50 to .99
+        MPVM004:     1.00 to 1.24
+        MPVM005:     1.25 to 1.49
+        MPVM006:     1.50 to 1.84
+        MPVM007:     1.85 to 1.99
+        MPVM008:     2.00 and over
+ 
+    Table 4:     Median Household Income in the Past 12 Months (in 2011 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  MP1
+        MP1M001:     Median household income in the past 12 months (in 2011 inflation-adjusted dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 14.0 
+        [Database]. Minneapolis, MN: IPUMS. 2019. 
+        http://doi.org/10.18128/D050.V14.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
